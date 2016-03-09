@@ -31,6 +31,25 @@ a {
   text-decoration: none;
 }
 
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #323D54;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
 a:hover {
   color: #C71525;
 }
@@ -63,6 +82,16 @@ a:hover {
 
 }
 
+.white-hover:hover{
+  color: white;
+}
+
+.side-menu {
+  color: #788188;
+  font-size: 30px;
+  margin: 30px auto;
+
+}
 .rounded-image {
   border-radius: 50%;
   width: 100px;

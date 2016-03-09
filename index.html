@@ -14,7 +14,30 @@
 </head>
 <body>
 
-  <div class="container">
+  <div id="sidebar">
+    <ul>
+      <li>
+      <a href="#summary" class="white-hover">
+          <i class="fa fa-info-circle">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="#movies" class="white-hover">
+          <i class="fa fa-film">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="#info" class="white-hover">
+          <i class="fa fa-gavel">
+          </i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container" id="summary">
     <div class="card text-center">
       <!-- Your content -->
       <img src="image/AAEAAQAAAAAAAAPiAAAAJDU0Yjk0Nzc5LWFkNjctNGM1ZC1hZDJjLTA5MzBkZTQxZTIzMQ.jpg" alt="here is a picture of myself" class="rounded-image">
@@ -51,6 +74,7 @@
       </ul>
     </div>
     <div class="card" id="favorite-movies">
+      <div id="movies"></div>
 
       <h2 class="text-center">My favorite movies</h2>
 
@@ -86,6 +110,7 @@
       </table>
     </div>
     <div class="card text-center">
+      <div id="info"></div>
       <h2>About this page</h2>
       <p>This page was created during a bootcamp @LeWagon</p>
       <ul class="list-inline">
